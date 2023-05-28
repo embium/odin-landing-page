@@ -1,0 +1,124 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header .links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.column-one {
+    width: 400px;
+}
+
+.column-one .main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.column-one .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.column-two img {
+    width: 400px
+}
+
+.hero-button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.info-container .header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 30px;
+    text-align: center;
+}
+
+.info-container .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-container .project {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;   
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.info-container .project-subtext {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.quote-container {
+    background-color: #EFE7EB;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote-container .author {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+
